@@ -1,0 +1,6 @@
+*.pyc
+data/
+models/
+results/
+.vscode/
+launch.json
