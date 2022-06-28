@@ -50,7 +50,7 @@ Create a conda environment and install python packages. At the terminal in the r
 
 `conda create -n topo_crack_detection python=3.7`
 
-`conda activate lod3_buildings`
+`conda activate topo_crack_detection`
 
 `pip install -r requirements.txt`
 
