@@ -68,7 +68,17 @@ Note: If want to test another model, change the [path](https://github.com/bgpant
 
 ### 5. Training models
 
-To train the models with the provided data set, ppen the terminal inside the src folder (with the environment activated -- `conda activate topo_crack_detection`) and write the next command:
+#### 5.0 Installing malis
+
+The TOPOLoss function uses malis method. It is necessary to install it. Go inside the `src/malis` folder and write the next commands:
+
+`python setup.py build_ext --inplace`
+
+`pip install --no-build-isolation .`
+
+#### 5.1 Training
+
+To train the models with the provided data set, open the terminal inside the src folder (with the environment activated -- `conda activate topo_crack_detection`) and write the next command:
 
 `python main.py --model_name="your_modeld_choice" --lr=your_learning_rate --n_epoch=your_epoch_number --malis_neg=your_topo_parameter1 --malis_pos=your_topo_parameter1`
 
