@@ -6,3 +6,4 @@ opencv-contrib-python
 scikit-image
 tqdm
 matplotlib
+cython
